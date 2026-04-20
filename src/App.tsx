@@ -1,7 +1,7 @@
 import './css/App.css'
 import worter from '../DB/worter.json'
 import { useEffect, useState } from 'react'
-
+// "build": "tsc -b && vite build",
 type Word = {
   id: number
   word: string
