@@ -12,6 +12,7 @@ const App = () => {
   useEffect(() => {
     handleNextWord()
   }, [])
+
   const [history, setHistory] = useState<Word[]>([])
   const [activeIndex, setActiveIndex] = useState<number>(-1)
   const [showTranslate, setShowTranslate] = useState(false)
